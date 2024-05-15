@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation</title>
+    <style>
+        .head{
+            text-align: center; background-color: lightblue; font-family:'Times New Roman', Times, serif;
+        }
+        .td{
+            background-color:burlywood;
+        }
+        .table{
+            font-family: 'Times New Roman';
+        }
+        .p{
+            background-color: lightblue; width:fit-content;font-family: 'Times New Roman', Times, serif; 
+            font-size:x-large; font-weight: bolder;
+        }
+        .content{
+            font-family: 'Times New Roman', Times, serif;
+            font-size:larger; text-align: justify;
+        }
+        .ul a{
+            text-decoration:none;
+        }
+    </style>
+</head>
+<body style="margin-left: 20%; margin-right: 20%;font:lighter;">
+    <header class="head">
+        <h1>DOCUMENTATION</h1>
+    </header>
+    <div class="table">
+        <form>
+            <table border="none" width="100%">
+                <h2 class="td" style="text-align: center;">TECHNICAL DOCUMENTATION</h2>
+                <tr>
+                    <td>
+                        <ul class="ul">
+                            <li><a href="#intro">INTRODUCTION</a></li><hr>
+                            <li><a href="#history">History of HTML</a></li>
+                            <details>
+                                 <summary>BRIEFLY</summary>
+                                 <p><li><a href="#intro">HPYER TEXT</a></li></p>
+                                 <p><li><a href="#intro">MARKUP</a></li></p>
+                                </details><hr>
+                                <li><a href="#build">Building Blocks of HTML</a></li>
+                            <details>
+                                 <summary>TYPES</summary>
+                                 <p><li><a href="#build">TAG</a></li></p>
+                                 <p><li><a href="#build">ELEMENTS</a></li></p>
+                                 <p><li><a href="#build">ATTRIBUTES</a></li></p>
+                                </details><hr>
+                                <li><a href="#WEB">What is Web Page</a></li>
+                            <details>
+                                 <summary>BRIEFLY</summary>
+                                 <p><li><a href="#WEB">Stactic Webpage</a></li></p>
+                                 <p><li><a href="#WEB">Dynamic Webpage</a></li></p>
+                                 <p><li><a href="#WEB">Responsible Webpage</a></li></p>
+                            </details><hr>
+                            <li><a href="#application">Architecture of Web Application</a></li>
+                            <details>
+                                   <summary>TYPES</summary>
+                                   <p><li><a href="#application">Single Tier</a></li></p>
+                                   <p><li><a href="#application">Two Tier</a></li></p>
+                                   <p><li><a href="#application">Three Tire</a></li></p>
+                            </details><hr>
+                            <li><a href="#data">What is Data</a></li>
+                            <details>
+                                <summary>TYPES</summary>
+                                <p><li><a href="#data">Structured</a></li></p>
+                                <p><li><a href="#data">Unstructured</a></li></p>
+                                <p><li><a href="#data">Semi-Structured</a></li></p>
+                            </details><hr>
+                            <li><a href="#layer">Web Application Layer</a></li>
+                            <details>
+                                <summary>TYPES</summary>
+                                <p><li><a href="#layer">Structure Layer</a></li></p>
+                                <p><li><a href="#layer">Presentation Layer</a></li></p>
+                                <p><li><a href="#layer">Behaviour Layer</a></li></p>
+                            </details><hr>
+                            <li><a href="#list">What is List in HTML</a></li>
+                            <details>
+                                <summary>TYPES</summary>
+                                <p><li><a href="#list">Order List</a></li></p>
+                                <p><li><a href="#list">Unorder List</a></li></p>
+                                <p><li><a href="#list">Description List</a></li></p>
+                            </details><hr>
+                            <li><a href="#ss">Semantic & non semantic</a></li>
+                            <details>
+                                <summary>TYPES</summary>
+                    <p><li><a href="#ss">Semantic Tag</a></li></p>
+                    <p><li><a href="#ss">Non-Semantic Tag</a></li></p>
+                 </details><hr>
+                 <li><a href="#table">What is Table</a></li>
+                 <details>
+                    <summary>TYPES</summary>
+                    <p><li><a href="#table">Table Head</a></li></p>
+                    <p><li><a href="#table">Table Body</a></li></p>
+                    <p><li><a href="#table">Table Foot</a></li></p>
+                 </details><hr>
+                <li><a href="#form">What is Form</a></li>
+                <details>
+                    <summary>Attributes</summary>
+                    <p><li><a href="#form">GET Method</a></li></p>
+                    <p><li><a href="#form">Post Method</a></li></p>
+                 </details>
+             </ul></tr>
+             </table>
+         </form>
+     </div>
+     <div>
+        <ol>
+            <hr><li><p id="intro" class="p">Introduction</p></li><hr>
+            <img src="html.png">
+            <article>
+                <div class="content">
+                <p>HTML is the language in which most websites are written. HTML is used to create pages and make them functional.
+                The code used to make them visually appealing is known as CSS and we shall focus on this in a later tutorial. For now, we will focus on teaching you how to build rather than design.</p>
+            <hr><li><p id="history"class="p">History of html</p></li><hr>
+            <img src="history.webp" width="100%">
+                <p>HTML stands for HyperText Markup Language. It is the standard markup language used to create web pages. HTML is a combination of Hypertext and Markup language. Hypertext defines the link between web pages. A markup language is used to define the text document within the tag to define the structure of web pages.
+                This language is used to annotate (make notes for the computer) text so that a machine can understand it and manipulate text accordingly. Most markup languages (e.g. HTML) are human-readable. The language uses tags to define what manipulation has to be done on the text.</p>
+            <p>Briefly</p>
+            <p>HYPER TEXT -</p>
+            <p>MARKUP LANGUAGE -</p>
+            <hr><li><p id="build" class="p">Building Blocks of HTML</p></li><hr>
+            <img src="build.webp" width="100%">
+            <p>HTML is the backbone of web content, which consists of fundamental building blocks that define the structure of a webpage. These building blocks include elements like Tags, Attributes, and Elements.</p>
+            <p>Features
+                HTML elements define the structure of a web page.
+                Tags provide semantic meaning to content, such as headings, paragraphs, lists, etc.
+                Attributes can be added to tags to provide additional information or functionality.</p>
+                
+            <p>Types</p>
+            <p>TAG - <p>	Defines a paragraph.
+                "1 to 6"	Define headings of different levels.
+                 "a"Creates hyperlinks.
+                <img>	Embeds images.</p>
+            <p>ELEMENTS - class	Specifies one or more class names.
+                id	Specifies a unique id for an element.
+                src	Specifies the source URL for embedded content
+                alt	Specifies alternative text for images.</p>
+            <P>ATTRIBUTES - <html>	Represents the root element of an HTML page.
+                <head>	Contains meta-information about the document.
+                <body>	Contains the content of the HTML document.
+                <div>	Defines a division or a section.
+                <span>	Defines a small section in a document.</P>
+            <hr><li><p id="WEB" class="p">What is Web Page</p></li><hr>
+            <img src="webpage.webp" width="100%">
+            <p>A webpage is a digital document that is linked to the World Wide Web and viewable by anyone connected to the internet having a web browser. It can contain any type of information, such as text, color, graphics, animations, videos, sounds, etc. 
+               A webpage is a document that is written in the HTML, it can be viewed from the Internet. It can be accessed by entering the URL on the address bar of the web browser.</p>
+            <p>Types</p>
+            <p>STATIC WEBPAGE - Static web pages are HTML pages that do not change their content or appearance when they are accessed by different users or at different times. They are designed to display the same information to all users and do not include any interactive elements or dynamic content.
+
+                Static web pages are typically used for basic information websites, such as brochure-style websites or personal websites, where the content does not need to change frequently. They are also used for content that does not require any user input or interaction, such as text, images, and other media.</p>
+            <p>DYNAMIC WEBPAGE - Dynamic Website is a website containing data that can be mutable or changeable. It uses client-side or server scripting to generate mutable content. Like a static website, it also contains HTML data.
+               Dynamic websites are those websites that changes the content or layout with every request to the webserver. These websites have the capability of producing different content for different visitors from the same source code file. There are two kinds of dynamic web pages i.e. client side scripting and server side scripting. </p>
+            <P>RESPONSIBLE WEBPAGE - Responsive web design makes your web page look good on all devices.
+               Responsive web design uses only HTML and CSS.
+               Responsive web design is not a program or a JavaScript.</P>
+            <hr><li><p id="application"class="p">Architecture of Web Application</p></li><hr>
+            <img src="archie.jpg" width="100%">
+            <p>Web architecture refers to the overall structure of a website or web application, including the way it is designed, implemented, and deployed. It involves the use of technologies and protocols such as HTML, CSS, JavaScript, and HTTP to build and deliver web pages and applications to users.</p>
+            <p>Web architecture consists of several components, including the client, the server, the network, and the database. The client is the web browser or application that the user interacts with, and the server is the computer or group of computers that host the website or web application. The network is the infrastructure that connects the client and the server, such as the internet. The database is a collection of data that is used to store and retrieve information for the website or web application.</p>
+            <p>Types</p>
+            <p>Single Tier - It means that the user interface, business, layers are accessible by the application under the same local drive. Both the client and server reside in the same machine. It is the simplest application architecture used.</p>
+            <p>Two Tier - In a two-tier architecture, the client is on the first tier. The database server and web application server reside on the same server machine, which is the second tier. This second tier serves the data and executes the business logic for the web application.</p>
+            <P>Three Tier - The three-tier architecture is the most popular implementation of a multi-tier architecture and consists of a single presentation tier, logic tier, and data tier. The following illustration shows an example of a simple, generic three-tier application.</P>
+            <hr><li><p id="data"class="p">What is Data</p></li><hr>
+            <img src="sus.png" width="100%" >
+            <p>Types</p>
+            <p>Structured - Structured data is data that has a standardized format for efficient access by software and humans alike. It is typically tabular with rows and columns that clearly define data attributes. Computers can effectively process structured data for insights due to its quantitative nature.</p>
+            <p>Unstructured - Unstructured data is the data which does not conforms to a data model and has no easily identifiable structure such that it can not be used by a computer program easily. Unstructured data is not organised in a pre-defined manner or does not have a pre-defined data model, thus it is not a good fit for a mainstream relational database. </p>
+            <P>Semi-Structured - Semi-structured data is a type of data that is not purely structured, but also not completely unstructured. It contains some level of organization or structure, but does not conform to a rigid schema or data model, and may contain elements that are not easily categorized or classified.</P>
+            <hr><li><p id="layer" class="p">Web Application Layer</p></li><hr>
+            <img src="sus.png" width="100%">
+            <p>This layer, also called Business Logic or Domain Logic or Application Layer, accepts user requests from the browser, processes them, and determines the routes through which the data will be accessed. The workflows by which the data and requests travel through the back end are encoded in a business layer.</p>
+            <p>Types</p>
+            <p>Structure Layer - Layers of web applications include Presentation, Data Service, Business Logic, and Data Access layers. Middleware facilitates communication between applications. Design patterns like MVC and MVP dictate the structure of web applications.</p>
+            <p>Presentation Layer - The presentation layer is accessible to users via a browser and consists of user interface components and UI process components that support interaction with the system. It's developed using three core technologies: HTML, CSS, and JavaScript. </p>
+            <P>Behaviour Layer - The behaviour layer uses scripting languages to control elements within a web page. It enables interactive elements and complex functionality, such as form validation, image sliders, and dynamic content updates. JavaScript is the primary language used for the behaviour layer.</P>
+            <hr><li><p id="list" class="p">What is List in HTML</p></li><hr>
+            <img src="list.jpeg" width="100%">
+            <p>HTML Lists are used to specify lists of information. All lists may contain one or more list elements. There are three different types of HTML lists: Ordered List or Numbered List (ol) Unordered List or Bulleted List (ul)</p>
+            <p>Types</p>
+            <p>Order List -</p>
+            <p>Unorder List - </p>
+            <P>Description List - </P>
+            <hr><li><p id="ss" class="p">Semantic & Non-Semantic</p></li><hr>
+            <img src="sns.png" width="100%">
+            <p>These elements simply mean, elements with meaning. The reason being, there definition in the code tells the browser and the developer what they are supposed to do. Framing in simpler words, these elements describe the type of content they are supposed to contain.</p>
+            <p>Non-Semantic elements: Unlike, semantic elements they don’t have any meaning. They don’t tell anything about the content they contain. They can be used with different attributes to mark up semantics common to a group.</p>
+            <p>Types</p>
+            <p>Semantic Tag - article
+                aside
+                details
+                figcaption
+                figure
+                footer
+                form
+                header
+                main
+                mark
+                nav
+                table
+                section</p>
+            <p>Non-Semantic Tag - div
+                span</p>
+            <hr><li><p id="table" class="p">What is Table</p></li><hr>
+            <img src="table.jpeg" width="100%">
+            <p></p>
+            <p>Types</p>
+            <p>Table Head -</p>
+            <p>Table Body -</p>
+            <P>Table Foot -</P>
+            <hr><li><p id="form" class="p">What is Form</p></li><hr>
+            <img src="formhtml.jpg" width="100%">
+            <p>HTML Form is a document that stores information of a user on a web server using interactive controls. An HTML form contains different kinds of information such as username, password, contact number, email id, etc. The elements used in an HTML form are the check box, input box, radio buttons, submit buttons, etc.</p>
+            <p>Attributes</p>
+            <p>GET Method - The GET method transfers data in the URL with a query string. Therefore, the length of the URL is limited. GET is preferable for images, word documents or data that does not require any security. </p>
+            <p>POST Method - POST is an HTTP method that encodes form data in a specified format and sends it to the server via the HTTP message body.</p>
+            <a href="">Go to top</a>
+            
+
+            </article>
+        </ol>
+     </div>
+</body>
+</html>
